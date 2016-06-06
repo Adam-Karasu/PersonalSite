@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Murad Karasu</title>
     <meta charset="utf-8">
+    <!-- bootstrap cdn setup -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="CV.css">
 </head>
+
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="wrap">
         <!-- navbar -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
+                    <a id="nav-name" class="navbar-brand" href="#">Murad Karasu</a>
+                    <!-- when collapsed show button -->
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a id="nav-name" class="navbar-brand" href="#">Murad Karasu</a>
                 </div>
+                <!-- collapsed navbar content -->
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#aboutme">Home</a></li>
+                        <li class="active"><a href="#aboutme">About Me</a></li>
                         <li><a href="#links">Links</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
-                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
                 </div>
+                <!-- end of collapsed navbar content -->
             </div>
         </nav>
+        <!-- end of navbar -->
         <!-- jumbotron -->
         <div class="jumbotron vertical-align">
             <div class="container buffer-top">
@@ -45,6 +51,7 @@
                 </div>
             </div>
         </div>
+        <!-- end of jumbotron -->
         <!-- test text div -->
         <div id="aboutme">
             <h2 class="text-center buffer-bottom">About Me</h2>
@@ -53,64 +60,74 @@
     <p>
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
  </pre>
-            </div>
-        </div>
-        <div id="links">
-            <div class="container">
                 <pre>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
  </pre>
             </div>
         </div>
-        <div class="container content">
-            <div class="row">
-                <h2 class="text-center buffer-bottom">Links</h2>
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail thumbnail-border ">
-                        <a href="https://github.com/LEcr">
-                            <img src="projects.png" class="img-circle" alt="Cinque Terre">
-                            <div class="caption text-center">
-                                <h3>Projects</h3>
-                                <p>Some of my projects on github</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail thumbnail-border ">
-                        <img src="cv.png" class="img-circle" alt="Cinque Terre">
-                        <div class="caption text-center">
-                            <h3>CV</h3>
-                            <p>Link to my CV in PDF format</p>
+        <!-- end of test text div -->
+        <!-- links -->
+        <div id="links">
+            <!-- links holding container -->
+            <div class="container content">
+                <!-- row div holds all links buttons -->
+                <div class="row">
+                    <!-- center heading "Links" -->
+                    <h2 class="text-center buffer-bottom">Links</h2>
+                    <!-- collumns of grid change size based on view size -->
+                    <div class="col-sm-6 col-md-3">
+                        <!-- provides rounded endge border for link areas -->
+                        <div class="thumbnail thumbnail-border ">
+                            <a href="https://github.com/LEcr">
+                                <img src="Resources/projects.png" class="img-circle" alt="Cinque Terre">
+                                <div class="caption text-center">
+                                    <h3>Projects</h3>
+                                    <p>Some of my projects on github</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-6 col-md-3">
-                    <div class="thumbnail thumbnail-border ">
-                        <img src="blog.png" class="img-circle" alt="Cinque Terre">
-                        <div class="caption text-center">
-                            <h3>Blog</h3>
-                            <p>My lightweight tech blog</p>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail thumbnail-border ">
+                            <a href="Resources/MuradKarasu.pdf">
+                                <img src="Resources/cv.png" class="img-circle" alt="Cinque Terre">
+                                <div class="caption text-center">
+                                    <h3>CV</h3>
+                                    <p>Link to my CV in PDF format</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <div class="thumbnail thumbnail-border ">
+                            <img src="Resources/blog.png" class="img-circle" alt="Cinque Terre">
+                            <div class="caption text-center">
+                                <h3>Blog</h3>
+                                <p>My lightweight tech blog</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- end of links -->
     </div>
     <!-- end wrap -->
-    <footer class="footer footer-inverse">
+    <footer class="footer">
         <div class="container text-center">
             <div class="row buffer-top">
-                    <div class="container text-center">
-                        <h4>Contact Me</h4>
-                        <p>
-                            <a href="https://github.com/LEcr">GitHub </a> -
-                            <a href="https://github.com/LEcr">LinkedIn </a> -
-                            <a href="https://github.com/LEcr">Twitter </a>
-                        </p>
-                    </div>
+                <div class="container text-center">
+                    <h4>Contact Me</h4>
+                    <p>
+                        <a href="https://github.com/LEcr">GitHub </a> -
+                        <a href="https://github.com/LEcr">LinkedIn </a> -
+                        <a href="https://twitter.com/karasumurad">Twitter </a>
+                    </p>
+                </div>
             </div>
         </div>
     </footer>
 </body>
+
 </html>

@@ -1,7 +1,9 @@
+/* site background colour */
 .wrap {
   background-color: #F8F8FF;
 }
 
+/*  */
 .navbar {
     z-index: 100;
     width: 100%;
@@ -21,7 +23,8 @@ pre{
   /* this needs to be bigger than footer height*/
 }
 
-/*Located at https://gist.github.com/nnja/6253189*/
+/* modifiy footer colours to match navbar-inverse
+Located at https://gist.github.com/nnja/6253189 */
 .footer {
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #222222, #111111);
