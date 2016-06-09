@@ -1,17 +1,18 @@
 body {
     font-family: 'Ubuntu', sans-serif;
 }
-pre {
-    white-space: pre-wrap;
-}
 
+ .test {
+
+   font-size: 18px;
+   margin: 5% auto;
+   max-width: 60%;
+}
 /* site background colour */
 
 .wrap {
     background-color: #F8F8FF;
 }
-
-/*  */
 
 .navbar {
     z-index: 100;
@@ -25,9 +26,10 @@ pre {
 }
 .short-bio {
     /*font-family: 'open-sans', serif;*/
-    font-size: 20px;
+    font-size: 18px;
     margin: 5% auto;
     max-width: 60%;
+
 }
 .content {
     padding-bottom: 50px;
